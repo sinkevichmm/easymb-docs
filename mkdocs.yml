@@ -1,2 +1,6 @@
-site_name: My Docs
+site_name: EasyMB
 theme: readthedocs
+
+nav:
+    - Введение: index.md
+    - About: about.md

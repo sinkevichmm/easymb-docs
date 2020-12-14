@@ -1,29 +1,63 @@
-# Welcome to MkDocs
+# EasyMB - утилита для работы с moddbus
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+----
 
-## Commands
+## Особенности
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* Бесплатная
+  
+        Утилита абсолютна бесплатная и не имеет ни каких ограничений для использования.
 
-## Project layout
+----
 
-```bash
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-```
+* Кроссплатформенная
 
-eeee
+        Linux, Windows, ARM.
 
-```json
+----
 
-{"d":2}
+* JSON Конфигурация
 
-```
+        Вся конфигурация содержится в удобно читаемом JSON файле(ах*).
 
-www
+----
+
+* Гибкий HTTP API Server
+  
+      * API позволяющий получать и отправлять данные.
+      * Запрос данных по Тегам и Свойствам переменных.
+      * Запрос данных по сгруппированных Свойствам переменных.
+      * Разграничение доступ к переменным по IP.
+      * Обслуживание статических файлов.
+      * CORS.
+
+----
+
+* Буферизация данных
+
+        Позволяет хранить в памяти исторические данные с указанной глубиной.
+
+----
+
+* Поддержка множества типов данных
+
+        bool, int, uint, long, ulong, 16bit, 32bit с различной ориентацией байтов.
+
+----
+
+* Режим тестирования переменных
+
+        Консольный интерфейс позволяющий определить корректность адреса
+        и определить тип переменной.
+
+    ![test](test.png)
+
+----
+
+* Режим визуализации
+
+        Консольный интерфейс позволяющий визуализировать данные переменных 
+        и отследить динамику их изменения.
+
+    ![test](monitor_item.png)
+    ![test](monitor_bitmap.png)
