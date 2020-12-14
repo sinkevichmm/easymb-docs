@@ -11,7 +11,19 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
+```bash
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+```
+
+eeee
+
+```json
+
+{"d":2}
+
+```
+
+www
