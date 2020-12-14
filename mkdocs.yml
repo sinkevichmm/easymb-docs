@@ -3,4 +3,4 @@ theme: readthedocs
 
 nav:
     - Введение: index.md
-    - About: about.md
+    - CLI: cli.md
