@@ -1,4 +1,4 @@
-# EasyMB - утилита для работы с moddbus
+# EasyMB - утилита для работы с modbus
 
 ----
 
