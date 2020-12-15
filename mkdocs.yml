@@ -1,6 +1,18 @@
 site_name: EasyMB
-theme: readthedocs
+
+theme:
+    #name: mkdocs
+    #name: material
+    #name: ivory
+    #name: bootstrap4
+    #name: swan
+    name: readthedocs
 
 nav:
     - Введение: index.md
     - CLI: cli.md
+    - Конфигурирование:
+        - Обычнвй режим: 
+            - REST API : config/normal/restapi.md
+            - Links: config/normal/links.md
+        - Тестовый режим : config/test/test.md
