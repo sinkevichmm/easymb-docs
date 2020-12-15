@@ -10,7 +10,6 @@ theme:
     #name: swan
     name: readthedocs
     navigation_depth: 10
-    custom_dir: site/
 
 nav:
     - Введение: index.md
