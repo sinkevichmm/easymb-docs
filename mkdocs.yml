@@ -1,5 +1,7 @@
 site_name: EasyMB
 
+site_url: http://easymb.xyz/
+
 theme:
     #name: mkdocs
     #name: material
