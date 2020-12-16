@@ -41,7 +41,7 @@
 # easymb --config path/to/config/file.json --monitor
 ```
 
-![monitor](monitor_item.png)
+![monitor](../../monitor_item.png)
 
 ## --test
 
@@ -53,7 +53,7 @@
 # easymb --config path/to/config/file.json --test
 ```
 
-![test](test.png)
+![test](../../test.png)
 
 ## --version
 

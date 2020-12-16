@@ -1,0 +1,5 @@
+
+nav:
+    - Введение: index.md
+    - CLI: cli.md
+    - Конфигурирование: config
