@@ -7,7 +7,7 @@
 |Тип|массив JSON|
 |Обязательный|Да|
 
-Може быть переопределен параметром links[x].devices[x].items[x].remoteAccess.restapi.accessList
+Може быть переопределен параметром **links**[x].**devices**[x].**items**[x].**remoteAccess**.**restapi**.**accessList**
 
 ----
 

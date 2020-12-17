@@ -1,7 +1,5 @@
 # Пример
 
-## TODO: Добавить описание калькуляции с примерами
-
 ```json
 {
     "links": [
@@ -127,6 +125,14 @@
                             "buffer": {
                                 "enable": true,
                                 "size": 100
+                            },
+                            "calculate": {
+                                "multiplier": 0.6,
+                                "offset": -7,
+                                "round":{
+                                    "enable": true,
+                                    "precision":3
+                                }
                             },
                             "remoteAccess": {
                                 "restapi": {

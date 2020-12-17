@@ -33,7 +33,7 @@
 |Значение|true/false|
 |Значение по умолчанию|false|
 
-Може быть переопределен параметром links[x].devices[x].items[x].remoteAccess.restapi.enable
+Може быть переопределен параметром **links**[x].**devices**[x].**items**[x].**remoteAccess**.**restapi**.**enable**
 
 ----
 
@@ -46,7 +46,7 @@
 |Тип|массив JSON|
 |Обязательный|Да|
 
-Може быть переопределен параметром links[x].devices[x].items[x].remoteAccess.restapi.accessList
+Може быть переопределен параметром **links**[x].**devices**[x].**items**[x].**remoteAccess**.**restapi**.**accessList**
 
 ----
 
