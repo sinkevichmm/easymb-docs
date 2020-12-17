@@ -1,3 +1,4 @@
 
 nav:
-    - Тестовый режим : test.md
+        - Пример : example.md
+        - links : links

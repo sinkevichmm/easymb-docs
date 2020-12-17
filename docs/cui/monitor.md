@@ -1,10 +1,10 @@
-# TEST
+# --monitor
 
 ----
 
 ## --help
 
-        вывод справки
+вывод справки
 
 Пример:
 
@@ -21,9 +21,11 @@
         display version info
 ```
 
+----
+
 ## --config
 
-        Путь к файлу настроек приложения
+Путь к файлу настроек приложения
 
 Пример:
 
@@ -31,9 +33,11 @@
 # easymb --config path/to/config/file.json
 ```
 
+----
+
 ## --monitor
 
-        режим мониторинга
+режим мониторинга
 
 Пример:
 
@@ -41,11 +45,13 @@
 # easymb --config path/to/config/file.json --monitor
 ```
 
-![monitor](../../monitor_item.png)
+![monitor](monitor_item.png)
+
+----
 
 ## --test
 
-        режим тестирования
+режим тестирования
 
 Пример:
 
@@ -53,11 +59,13 @@
 # easymb --config path/to/config/file.json --test
 ```
 
-![test](../../test.png)
+![test](test.png)
+
+----
 
 ## --version
 
-        информация о версии приложения
+информация о версии приложения
 
 Пример:
 
