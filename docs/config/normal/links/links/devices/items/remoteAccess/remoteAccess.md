@@ -9,7 +9,7 @@
 
 ----
 
-## **remoteAccess**.restapi
+## **remoteAccess**.**restapi**
 
 Настройки параметров доступа по к переменной по REST API
 

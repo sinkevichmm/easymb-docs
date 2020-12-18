@@ -11,7 +11,7 @@
 
 ----
 
-## **calculate**.multiplier
+## **calculate**.**multiplier**
 
 Множитель значения переменной
 
@@ -24,7 +24,7 @@
 
 ----
 
-## **calculate**.offset
+## **calculate**.**offset**
 
 Смещение значения переменной
 
@@ -37,7 +37,7 @@
 
 ----
 
-## **calculate**.round
+## **calculate**.**round**
 
 Округление значения переменной
 

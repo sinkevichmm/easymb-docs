@@ -10,7 +10,7 @@
 
 ----
 
-## **publicFolder**.enable
+## **publicFolder**.**enable**
 
 разрешение на доступ к статическим файлам
 
@@ -23,7 +23,7 @@
 
 ----
 
-## **publicFolder**.path  
+## **publicFolder**.**path**  
 
 путь к дериктории с доступными статическими файлами
 

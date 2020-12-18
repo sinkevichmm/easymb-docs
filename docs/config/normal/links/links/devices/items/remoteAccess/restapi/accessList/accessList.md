@@ -11,7 +11,7 @@
 
 ----
 
-## **accessList**.ip
+## **accessList**.**ip**
 
 адрес клиента
 
@@ -23,7 +23,7 @@
 
 ----
 
-## **accessList**.read
+## **accessList**.**read**
 
 разрешение на чтение переменной
 
@@ -36,7 +36,7 @@
 
 ----
 
-## **accessList**.write
+## **accessList**.**write**
 
 разрешение на изменение переменной
 

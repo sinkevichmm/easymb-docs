@@ -10,7 +10,7 @@
 
 ----
 
-## **items**.address
+## **items**.**address**
 
 Адрес устройства
 

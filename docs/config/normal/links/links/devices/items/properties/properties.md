@@ -9,7 +9,7 @@
 
 ----
 
-## **properties**.key
+## **properties**.**key**
 
 Наименование свойства
 
@@ -21,7 +21,7 @@
 
 ----
 
-## **properties**.value
+## **properties**.**value**
 
 Значение свойства
 

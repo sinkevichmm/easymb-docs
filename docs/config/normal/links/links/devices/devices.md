@@ -10,7 +10,7 @@
 
 ----
 
-## **devices**.id
+## **devices**.**id**
 
 уникальный номер устройства в пределах проекта
 
@@ -24,7 +24,7 @@
 
 ----
 
-## **devices**.address
+## **devices**.**address**
 
 Адрес устройства
 
@@ -38,7 +38,7 @@
 
 ----
 
-## **devices**.description
+## **devices**.**description**
 
 Описание устройства.  Служит в качестве meta информации
 
@@ -50,7 +50,7 @@
 
 ----
 
-## **devices**.groupRequest
+## **devices**.**groupRequest**
 
 Тип запроса данных
 
@@ -70,7 +70,7 @@
 
 ----
 
-## **devices**.items  
+## **devices**.**items**  
 
 Описание переменных устройства
 
