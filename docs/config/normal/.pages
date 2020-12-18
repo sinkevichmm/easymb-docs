@@ -1,4 +1,5 @@
 
 nav:
+        - normal.md
         - REST API : restapi
         - links : links

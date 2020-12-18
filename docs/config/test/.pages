@@ -1,4 +1,5 @@
 
 nav:
+        - test.md
         - Пример : example.md
         - links : links

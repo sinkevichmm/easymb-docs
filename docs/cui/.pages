@@ -1,4 +1,3 @@
 
 nav:
-    - --test : test.md
-    - --monitor : monitor.md
+    - Режим мониторинга : monitor
