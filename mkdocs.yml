@@ -22,7 +22,7 @@ theme:
 #    name: null
 #    custom_dir: 'cinder/'
 
-# markdown_extensions:
+# **markdown_extensions**:
 #     - toc:
 #         permalink: True
 
@@ -39,7 +39,7 @@ plugins:
         collapse_single_pages: true
     - section-index
 
-# nav:
+# **nav**:
 #     - Введение: index.md
 #     - CLI: cli.md
 #     - Конфигурирование:

@@ -1,4 +1,4 @@
-# restapi
+# **restapi**
 
 Настройки параметров доступа по к переменной по REST API
 
@@ -11,7 +11,7 @@
 
 ----
 
-## restapi.enable
+## **restapi**.enable
 
 Разрешение на доступ к переменной по REST API
 
@@ -24,7 +24,7 @@
 
 ----
 
-## restapi.accessList
+## **restapi**.accessList
 
 Настройки параметров доступа по к переменной по REST API
 

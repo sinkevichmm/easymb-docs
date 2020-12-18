@@ -1,5 +1,5 @@
 
-# devices  
+# **devices**  
 
 Описание настроек устройста
 
@@ -10,7 +10,7 @@
 
 ----
 
-## devices.address
+## **devices**.address
 
 Адрес устройства
 
@@ -24,7 +24,7 @@
 
 ----
 
-## devices.description
+## **devices**.description
 
 Описание устройства.  Служит в качестве meta информации
 
@@ -36,7 +36,7 @@
 
 ----
 
-## devices.items  
+## **devices**.items  
 
 Описание переменных устройства
 
