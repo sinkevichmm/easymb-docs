@@ -1,5 +1,5 @@
 
 nav:
-    - bitMaps: bitMaps
+    - bitmaps: bitMaps
     - items: items
-    - ItemGroups: ItemGroups
+    - itemgroups: ItemGroups
