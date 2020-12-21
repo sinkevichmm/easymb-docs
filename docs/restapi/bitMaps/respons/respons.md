@@ -14,7 +14,7 @@ message: содержит служебные сообщения при **status*
 
 ### **actual**
 
-Признак актуальность данных
+Признак актуальность данных. Значение из поля **links**[x].**devices**[x].**items**[x].**actual**
 
 ----
 
@@ -26,7 +26,7 @@ message: содержит служебные сообщения при **status*
 
 ### **bit**
 
-Номер бита
+Номер бита. Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**bit**
 
 ----
 
@@ -53,7 +53,7 @@ message: содержит служебные сообщения при **status*
 
 Время последнего ответа
 
-Доступно при параметре запроса meta=true
+Доступно при параметре запроса **meta**=**true**
 
 ----
 
@@ -65,13 +65,13 @@ message: содержит служебные сообщения при **status*
 
 ### **tags**
 
-Значение из поля **links**[x].**devices**[x].**items**[x].**tags**
+Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**tags**
 
 ----
 
 ### **properties**
 
-Значение из поля **links**[x].**devices**[x].**items**[x].**properties**
+Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**properties**
 
 ----
 
@@ -86,3 +86,15 @@ message: содержит служебные сообщения при **status*
 * **links**[x].**devices**[x].**items**[x].**buffer**.**enable**=**true**
 * **links**[x].**devices**[x].**items**[x].bitMap[x].**buffer**.**enable**=**true**
 * **links**[x].**devices**[x].**items**[x].bitMap[x].**buffer**.**size**>0 если поле существует, иначе, если **links**[x].**devices**[x].**items[**x].**buffer**.**size**>0
+
+#### **buffer**.**value**
+
+Архивное значение
+
+----
+
+#### **buffer**.**lastChange**
+
+Дата изменения значение
+
+----
