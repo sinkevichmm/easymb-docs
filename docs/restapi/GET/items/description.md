@@ -1,6 +1,6 @@
 # **items**
 
-GET запрос типа  
+GET запрос типа:
 
 > http://host:port/api/items?someParam=someValue
 

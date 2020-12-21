@@ -3,4 +3,4 @@ nav:
     - description.md
     - Пример: example
     - Параметры запроса: params
-    - Разбор ответа: respons
+    - Ответ: respons

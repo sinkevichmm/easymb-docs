@@ -1,5 +1,4 @@
 
 nav:
-    - bitmaps: bitMaps
-    - items: items
-    - itemgroups: ItemGroups
+    - GET: GET
+    - PUT: PUT

@@ -7,7 +7,7 @@
 |Тип|JSON|
 |Обязательный|Нет|
 
-Актуален при **links**[x].**devices**[x].**items**[x].**type**=[uintXX intXX ulongXXXX longXXXX]
+Актуален при **links**[x].**devices**[x].**items**[x].**type**=[**uintXX** **intXX** **ulongXXXX** **longXXXX**]
 
 ----
 

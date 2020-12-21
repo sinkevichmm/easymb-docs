@@ -1,6 +1,6 @@
 # **bitmaps**
 
-GET запрос типа  
+GET запрос типа:
 
 > http://host:port/api/bitmap?someParam=someValue
 

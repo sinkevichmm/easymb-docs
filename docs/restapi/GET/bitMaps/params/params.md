@@ -1,6 +1,6 @@
 # Параметры запроса
 
-> api/bitmaps?k=v"
+> api/bitmaps?k=v
 
 ## Параметры
 
