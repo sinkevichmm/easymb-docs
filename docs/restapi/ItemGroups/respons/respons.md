@@ -12,65 +12,55 @@ message: содержит служебные сообщения при **status*
 
 ----
 
-### **actual**
+### **value**
 
-Признак актуальность данных
-
-----
-
-### **addressDevice**
-
-Значение из поля **links**[x].**devices**[x].**address**. Доступно при параметре запроса **meta**=**true**
+Значение поля **links**[x].**devices**[x].**items**[x].**properties**[x].**value** для **key** указанного в параметре запроса **main**
 
 ----
 
-### **addressItem**
+## **groups**
+
+Массив данных сгруппированных по **links**[x].**devices**[x].**items**[x].**properties**[x].**key** указанных в параметре запроса **sub**
+
+----
+
+### **groups**.**value**
 
 Значение из поля **links**[x].**devices**[x].**items**[x].**address**.  Доступно при параметре запроса **meta**=**true**
 
 ----
 
-### **idItem**
+### **groups**.**items**
+
+Представление данных переменных для **links**[x].**devices**[x].**items**[x].**type**=[**bool** **intXX**  **uintXX**  **longXXX** **ulongXXXX** **floatXXXX**]
+
+----
+
+#### **items**.**actual**
+
+Признак актуальность данных
+
+----
+
+#### **items**.**idItem**
 
 Значение из поля **links**[x].**devices**[x].**items**[x].**id**.  
 
 ----
 
-### **idLink**
+#### **items**.**value**
 
-Значение из поля **links**[x].**id**. Доступно при параметре запроса **meta**=**true**
-
-----
-
-### **idDevice**
-
-Значение из поля **links**[x].**devices**[x].**id**. Доступно при параметре запроса **meta**=**true**
+Значение переменной
 
 ----
 
-### **direction**
+#### **items**.**direction**
 
 Значение из поля **links**[x].**devices**[x].**items**[x].**direction** Доступно при параметре запроса **meta**=**true**
 
 ----
 
-### **type**
-
-Значение из поля **links**[x].**devices**[x].**items**[x].**type** Доступно при параметре запроса **meta**=**true**
-
-### **description**
-
-Значение из поля **links**[x].**devices**[x].**items**[x].**description**
-
-----
-
-### **value**
-
-Ответа на запрос данных с устройства
-
-----
-
-### **lastResponse**
+#### **items**.**lastResponse**
 
 Время последнего ответа
 
@@ -78,25 +68,25 @@ message: содержит служебные сообщения при **status*
 
 ----
 
-### **lastChange**
+#### **items**.**lastChange**
 
-Время последнего изменения значения поля value
+Время последнего изменения значения поля **value**
 
 ----
 
-### **tags**
+#### **items**.**tags**
 
 Значение из поля **links**[x].**devices**[x].**items**[x].**tags**
 
 ----
 
-### **properties**
+#### **items**.**properties**
 
 Значение из поля **links**[x].**devices**[x].**items**[x].**properties**
 
 ----
 
-### **buffer**
+#### **items**.**buffer**
 
 Хранит результыты прдидущих запросов
 
@@ -108,25 +98,27 @@ message: содержит служебные сообщения при **status*
 
 ----
 
-#### **buffer**.**value**
+##### **buffer**.**value**
 
 Архивное значение
 
 ----
 
-#### **buffer**.**lastChange**
+##### **buffer**.**lastChange**
 
 Дата изменения значение
 
 ----
 
-### **bitMap**
+### **groups**.**bitMap**
 
-Доступно при значени поля links[x].devices[x].items[x].type [**16bitXX**  **32bitXXXX**]
+Представление данных переменных для **links**[x].**devices**[x].**items**[x].**type**=[**16bitXX** **32bitXXXX**]
+
+----
 
 #### **bitMap**.**bit**
 
-Номер бита. Номер бита. Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**bit**
+Номер бита. Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**bit**
 
 ----
 
@@ -141,6 +133,8 @@ message: содержит служебные сообщения при **status*
 Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**on** при **value**=**true**
 Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**off** при **value**=**false**
 
+----
+
 #### **bitMap**.**description**
 
 Значение из поля **links**[x].**devices**[x].**items**[x].**bitMap**[x].**description**
@@ -149,7 +143,7 @@ message: содержит служебные сообщения при **status*
 
 #### **bitMap**.**lastChange**
 
-Время последнего изменения значения поля value
+Время последнего изменения значения поля **value**
 
 ----
 

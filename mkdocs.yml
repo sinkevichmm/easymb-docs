@@ -18,6 +18,9 @@ theme:
         - json
         - shell
 
+extra_css:
+    - stylesheets/extra.css
+
 #theme:
 #    name: null
 #    custom_dir: 'cinder/'
