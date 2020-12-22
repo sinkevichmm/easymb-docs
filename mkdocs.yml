@@ -3,6 +3,8 @@ site_name: EasyMB
 site_url: http://easymb.xyz/
 
 theme:
+    logo: assets/logo.svg
+    favicon: assets/favicon.png
     ##name: mkdocs
     name: material
     ##name: 'rtd-dropdown'
@@ -11,23 +13,13 @@ theme:
     #name: swan
     ##name: windmill
     ##name: gitbook
-    
     #name: readthedocs
-    avigation_depth: 7
     hljs_languages:
         - json
         - shell
 
 extra_css:
     - stylesheets/extra.css
-
-#theme:
-#    name: null
-#    custom_dir: 'cinder/'
-
-# **markdown_extensions**:
-#     - toc:
-#         permalink: True
 
 markdown_extensions:
     - pymdownx.highlight
@@ -36,23 +28,8 @@ markdown_extensions:
 
 
 plugins:
-    #- search
+
     - awesome-pages:
         strict: true
         collapse_single_pages: true
     - section-index
-
-# **nav**:
-#     - Введение: index.md
-#     - CLI: cli.md
-#     - Конфигурирование:
-#         - Обычный режим: 
-#             - REST API : 
-#                 - config/normal/restapi/example.md
-#                 - restapi: config/normal/restapi/restapi.md
-#                 - accessList: config/normal/restapi/accessList/accessList.md
-#             - Links: 
-#                 - Пример: config/normal/links/example.md
-#                 - links: config/normal/links/links.md
-
-#         - Тестовый режим : config/test/test.md
