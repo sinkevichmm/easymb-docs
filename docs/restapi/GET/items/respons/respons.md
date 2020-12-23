@@ -100,7 +100,7 @@ message: содержит служебные сообщения при **status*
 
 Хранит результаты предыдущих запросов
 
-Доступно при значени поля **links**[x].**devices**[x].**items**[x].**type**=[**bool** **intXX**  **uintXX**  **longXXX** **ulongXXXX** **floatXXXX**]
+Доступно при значении поля **links**[x].**devices**[x].**items**[x].**type**=[**bool** **intXX**  **uintXX**  **longXXX** **ulongXXXX** **floatXXXX**]
 
 Заполняется при:
 
@@ -116,13 +116,13 @@ message: содержит служебные сообщения при **status*
 
 #### **buffer**.**lastChange**
 
-Дата изменения значение
+Дата изменения значения
 
 ----
 
 ### **bitMap**
 
-Доступно при значени поля **links**[x].**devices**[x].**items**[x].**type** [**16bitXX**  **32bitXXXX**]
+Доступно при значении поля **links**[x].**devices**[x].**items**[x].**type** [**16bitXX**  **32bitXXXX**]
 
 #### **bitMap**.**bit**
 
@@ -169,7 +169,7 @@ message: содержит служебные сообщения при **status*
 
 Хранит результаты предыдущих запросов
 
-Доступно при значени поля **links**[x].**devices**[x].**items**[x].**type**=[**16bitXX**  **32bitXXXX**]
+Доступно при значении поля **links**[x].**devices**[x].**items**[x].**type**=[**16bitXX**  **32bitXXXX**]
 
 Заполняется при:
 
@@ -187,4 +187,4 @@ message: содержит служебные сообщения при **status*
 
 ##### **bitMap**.**buffer**.**lastChange**
 
-Дата изменения значение
+Дата изменения значения

@@ -4,4 +4,4 @@ GET запрос типа:
 
 > http://host:port/api/bitmap?someParam=someValue
 
-Возврвщает данные сгруппированные побитно для переменных типа  **links**[x].**devices**[x].**items**[x].**type**=[**16BitXX** **32bitXXXX**]
+Возвращает данные сгруппированные побитно для переменных типа  **links**[x].**devices**[x].**items**[x].**type**=[**16BitXX** **32bitXXXX**]
