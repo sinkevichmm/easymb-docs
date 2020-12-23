@@ -6,7 +6,7 @@
 # easymb --config path/to/config/file.json
 ```
 
-Так же это режим можно запусатить с параметром --monitor.
+Так же это режим можно запустить с параметром --monitor.
 
 ```shell
 # easymb --config path/to/config/file.json
