@@ -20,7 +20,7 @@
 |Значение|true/false|
 |Значение по умолчанию|false|
 
-Актуален при **links**[x].**devices**[x].**items**[x].**buffer**.**enable**=**true**. Может переопределить параметр **links**[x].**devices**[x].**items**[x].**buffer**.**enable**
+Актуален при **links**[x].**devices**[x].**items**[x].**buffer**.**enable**=**true**. Можетт переопределить параметр **links**[x].**devices**[x].**items**[x].**buffer**.**enable**
 
 ----
 
@@ -35,4 +35,4 @@
 |Значение|0...255|
 |Значение по умолчанию|0|
 
-Актуален при **links**[x].**devices**[x].**items**[x].**buffer**.**enable**=**true**. Может переопределить параметр **links**[x].**devices**[x].**items**[x].**buffer**.**size**
+Актуален при **links**[x].**devices**[x].**items**[x].**buffer**.**enable**=**true**. Можетт переопределить параметр **links**[x].**devices**[x].**items**[x].**buffer**.**size**

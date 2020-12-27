@@ -11,7 +11,7 @@ Modbus имееет 4 области памяти в которых хранят
 * Input Registers
 * Holding Registers
 
-Для доступа к регистрам через EasyMB можно воспользоватся таблицей соответствия для  **links**[x].**devices**[x].**items**[x]:
+Для доступа к регистрам через EasyMB можно воспользоваться таблицей соответствия для  **links**[x].**devices**[x].**items**[x]:
 
 |**type**|**direction**|modbus bank|
 |----|---|---|
