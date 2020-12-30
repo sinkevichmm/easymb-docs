@@ -14,4 +14,4 @@ body:
 
 Установит значение **links**[x].**devices**[x].**items**[x].**value** переменной **links**[x].**devices**[x].**items**[x].**id**=**:id**
 
-Актуален при **links**[x].**devices**[x].**items**[x].**type**=[**uintXX** **intXX** **ulongXXXX** **longXXXX**]
+Актуален при **links**[x].**devices**[x].**items**[x].**type**=[**uintXX** **intXX** **ulongXXXX** **longXXXX**] и **links**[x].**devices**[x].**items**[x].**direction**=**out**

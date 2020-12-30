@@ -24,4 +24,4 @@ body:
 
 Установит значения битов **links**[x].**devices**[x].**items**[x].**bitMap**[x].**value** переменной **links**[x].**devices**[x].**items**[x].**id**=**:id**
 
-Актуален при **links**[x].**devices**[x].**items**[x].**type** [**16bitXX**  **32bitXXXX**]
+Актуален при **links**[x].**devices**[x].**items**[x].**type** [**16bitXX**  **32bitXXXX**] и **links**[x].**devices**[x].**items**[x].**direction**=**out**
