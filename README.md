@@ -1,6 +1,6 @@
 # easymb-docs
 
-Документация для утилиты EasyMB. https://easymb.xyz
+Документация для утилиты EasyMB. <https://easymb.xyz>
 
 EasyMB - бесплатная утилита для работы с протоколом ModBus.
 
