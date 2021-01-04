@@ -7,6 +7,8 @@ PUT запрос типа:
 ```json
 body:
 
+content-type: application/json
+
 {
     "value":
         [
