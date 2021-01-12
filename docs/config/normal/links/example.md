@@ -16,7 +16,7 @@
             "parity": "N",
             "stopBits": 2,
             "timeoutMs": 100,
-            "reqestMs": 100,
+            "requestMs": 100,
             "devices": [
                 {
                     "id": 75,
@@ -95,7 +95,7 @@
             "port": "502",
             "ip": "192.168.22.132",
             "timeoutMs": 100,
-            "reqestMs": 100,
+            "requestMs": 100,
             "devices": [
                 {
                     "id": 22,
